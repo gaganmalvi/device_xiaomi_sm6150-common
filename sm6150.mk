@@ -144,6 +144,7 @@ PRODUCT_PACKAGES += \
     qcom.fmradio
 
 # GPS
+TARGET_USES_HARDWARE_QCOM_GPS := false
 PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1-impl-qti \
     android.hardware.gnss@2.1-service-qti
